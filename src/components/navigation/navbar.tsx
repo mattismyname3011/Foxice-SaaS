@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="flex items-start">
           <Link href={`/`} className="flex items-center gap-2">
             <Icons.logo className="w-8 h-8" />
-            <span className="text-lg font-medium">Astra</span>
+            <span className="text-lg font-medium">WinteryFox</span>
           </Link>
         </div>
 
