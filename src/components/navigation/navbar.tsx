@@ -3,6 +3,7 @@ import React from "react";
 import Icons from "../global/icons";
 import { Icon } from "lucide-react";
 import { buttonVariants } from "../ui/button";
+import Image from "next/image";
 
 const Navbar = () => {
   const user = false;
@@ -12,7 +13,15 @@ const Navbar = () => {
       <div className="flex items-center justify-between h-full mx-auto md:max-w-screen-xl">
         <div className="flex items-start">
           <Link href={`/`} className="flex items-center gap-2">
-            <Icons.logo className="w-8 h-8" />
+            {/* <Icons.logo className="w-8 h-8" /> */}
+            <Image
+              className="relative "
+              src={`/icons/apple-touch-icon.png`}
+              alt="Next.js Logo"
+              width={50}
+              height={50}
+              priority
+            />
             <span className="text-lg font-medium">WinteryFox</span>
           </Link>
         </div>

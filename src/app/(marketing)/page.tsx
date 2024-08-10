@@ -31,13 +31,17 @@ const HomePage = () => {
               </span>
             </button>
 
-            <div className="flex flex-col items-center mt-8 max-w-3xl mx-auto w-11/12 md:w-full">
+            <div className="flex flex-col items-center mt-8 max-w-4xl mx-auto w-11/12 md:w-full">
               <h1 className="text-4xl md:text-6xl md:!leading-snug font-semibold text-center bg-clip-text text-white">
-                Build your next idea and ship your dream site
+                {/* Build your next idea and ship your dream site */}
+                Humanize AI to sounds like us
               </h1>
               <p className="text-base md:text-lg text-foreground/80 mt-6 text-center">
-                Zero code, maximum speed. Make professional sites easy, fast and
-                fun while delivering best-in-class SEO, performance.
+                {/* Zero code, maximum speed. Make professional sites easy, fast and
+                fun while delivering best-in-class SEO, performance. */}
+                Humanized content, undetectable by AI. Transform AI-generated
+                text into natural-sounding content with ease, and manage your
+                usage with a flexible token system based on your needs.
               </p>
               <div className="hidden md:flex relative items-center justify-center mt-8 md:mt-12 w-full">
                 <div
@@ -45,9 +49,8 @@ const HomePage = () => {
                   className="flex items-center justify-center w-max rounded-full border-t border-foreground/30 bg-white/20 backdrop-blur-lg px-2 py-1 md:py-2 md:gap-8 shadow-2xl shadow-foreground/40  select-none"
                 >
                   <p className="text-foreground text-sm text-center md:text-base font-medium pl-4 pr-4 lg:marker:pr-0">
-                    ✨{""} Start building your dream website now!
+                    ✨{""} Humanizing your content right now!
                   </p>
-
                   <Link href={`/`}>
                     <Button
                       size={`sm`}
